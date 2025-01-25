@@ -1,0 +1,765 @@
+.bg-azul {
+    background-color: #0844ac;
+}
+
+
+/* HEADER */
+.header {
+    background-color: #011e57;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.header__left-a, .header__right-a {
+    font-size: 0.7em;
+    font-weight: bold;
+}
+.header__left-img {
+    width: 1.65em;
+}
+
+.header__left-h1 {
+    font-size: 1.5em;
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 0em;
+}
+
+.header__right-img {
+    width: 2em;
+    filter: invert(1);
+}
+
+/* MAIN */
+
+.main {
+    height: 100vh;
+}
+
+.main__backgroung-image {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: top;
+    filter: opacity(50%);
+}
+
+
+/* MAIN - NAVBAR */
+
+.main__nav-brand {
+    background-color: #002f87;
+    padding: 0.65em 2.25em;
+    width: 20vw;
+}
+
+.main__nav-title {
+    font-weight: bold;
+    line-height: 115%;
+}
+
+.main__nav-center {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__nav-img {
+    height: 6.5vh;
+}
+
+.main__nav-menu {
+    display: none;
+}
+
+.main__nav-img-center {
+    display: none;
+}
+
+.main__nav-button, .main__navbar {
+    cursor: pointer;
+    height: 100%;
+    font-weight: bold;
+}
+
+.main__nav-item-img {
+    height: 1.25em;
+}
+
+.main__nav-center:hover {
+    background-color: #002f87;
+    transition: 0.2s;
+}
+
+.main__nav-button-user {
+    display: none;
+}
+
+/* MAIN - PRESENTATION */
+
+.main__presentation {
+    margin-top: 30vh;
+    margin-left: 10vw;
+}
+
+.main__presentation-h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: skyblue;
+    filter: opacity(1);
+}
+
+.main__presentation-h1 {
+    width: 75vw;
+    font-size: 5em;
+    font-weight: bold;
+    line-height: 100%;
+    padding-right: 100px;
+    display: inline;
+    filter: opacity(1);
+}
+
+.main__presentation-button {
+    background-color: rgb(220, 53, 69);
+    font-weight: bold;
+    width: 12.5vw;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    filter: opacity(1);
+}
+
+.main__presentation-button:hover {
+    background-color: #002f87;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.main__presentation-last-game {
+    background-color: white;
+    width: 75vw;
+    filter: opacity(1);
+}
+
+.main__presentation-teams {
+    width: 15vw;
+}
+
+.main__presentation-logo {
+    height: 10vh;
+}
+
+.main__presentation-info {
+    border-left: lightgray 1px solid;
+    width: 55vw;
+}
+
+.main__presentation-info-h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+}
+
+.main__presentation-more {
+    width: 5vw;
+    background-color: rgb(220, 53, 69);
+    font-size: 2em;
+}
+
+.main__presentation-more:hover {
+    background-color: #002f87;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* NOTICES */
+
+.notices {
+    margin: 15vh 10vw;
+}
+
+.notices__all-notices-underline {
+    text-decoration: underline red solid 0.25em;
+    text-underline-offset: 1em;
+}
+
+.notices__all-notices {
+    text-decoration: none;
+}
+
+.notices__all-notices:hover {
+    text-decoration: underline red solid 0.25em;
+    text-underline-offset: 1em;
+    transition: 0.2s;
+}
+
+.notices__card {
+    height: 50vh;
+}
+
+.notices__card-content {
+    height: 100%;
+    overflow: hidden;
+}
+
+.notices__card-img {
+    object-fit: cover;
+    width: 100%;
+    height: 40%;
+}
+
+.notices__card-img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.notices__card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+}
+
+.notices__card-footer {
+    font-size: 0.75em;
+}
+
+.notices__card-background-img1 {
+    position: absolute;
+    width: 40vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.notices__card-background-img1:hover {
+    cursor: pointer;
+    filter: opacity(80%);
+    transition: 0.5s;
+}
+
+.notices__card-content1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.notices__card-background-img2 {
+    height: 50vh;
+    object-fit: cover;
+}
+
+.notices__card-background-img2:hover {
+    cursor: pointer;
+    filter: opacity(80%);
+    transition: 0.5s;
+}
+
+.notices__card-background-img3 {
+    position: absolute;
+    width: 19vw;
+    height: 50vh;
+    object-fit: cover;
+}
+.notices__card-background-img3:hover {
+    cursor: pointer;
+    filter: opacity(80%);
+    transition: 0.5s;
+}
+
+/*  NACIONALTV */
+
+.nacionaltv {
+    height: 25vh;
+    padding: 5vh 10vw;
+    background-color: #082c74;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nacionaltv__info {
+    font-size: 1.15em;
+}
+
+.nacionaltv__button {
+    width: 20vw;
+    height: 7vh;
+    background-color: rgb(220, 53, 69);
+    font-size: 1.25em;
+}
+
+.nacionaltv__button:hover {
+    background-color: #002f87;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* Social media */
+
+.socialmedia {
+    padding: 5vh 10vw 15vh 10vw;
+    background-color: rgb(241, 241, 241);
+}
+
+.socialmedia__titles {
+    height: 5vh;
+}
+
+.socialmedia__images {
+    width: 20%;
+    margin: 0.5em 0em;
+}
+
+.socialmedia-card {
+    height: 25vh;
+}
+
+.socialmedia__card-content {
+    height: 100%;
+    background-color: white;
+}
+
+.socialmedia__card-img {
+    object-fit: cover;
+    height: 100%;
+    width: 50%;
+}
+
+.socialmedia__card-info {
+    width: 50%;
+}
+
+.socialmedia__card-title-img {
+    width: 0.9vw;
+    object-fit: contain;
+}
+
+/* SPONSORS */
+
+.sponsors {
+    margin: 10vh 10vw;
+}
+
+.sponsors__img {
+    width: 7.5vw;
+    object-fit: contain;
+    filter: opacity(50%);
+}
+
+.img-lower {
+    width: 5vw;
+}
+
+.sponsors__img:hover {
+    filter: opacity(1);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 25vh;
+    padding: 5vh 5vw;
+    background-color: #082c74;
+}
+
+.footer__link {
+    text-decoration: none;
+    font-weight: lighter;
+    filter: opacity(50%);
+}
+
+.footer__link:hover {
+    filter: opacity(1);
+}
+
+.footer__hr {
+    height: 1px;
+    background-color: white;
+    filter: opacity(50%);
+}
+
+.footer__socialmedia {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__socialmedia-img {
+    width: 1.5em;
+    object-fit: contain;
+    filter: invert(1);
+}
+
+.footer__by {
+    filter: opacity(50%);
+}
+
+.footer__author {
+    filter: opacity(75%);
+}
+
+@media (max-width: 1400px) {
+    .main__nav-title {
+        display: none;
+    }
+    .main__nav-brand {
+        width: 7.5vw;
+        padding: 0.65em 1.25em;
+    }
+
+    .main__nav-center {
+        width: 95vw;
+    }
+
+    .main__presentation-h1 {
+        font-size: 3.5em;
+
+    }
+
+}
+
+@media (max-width: 1140px) {
+    .main__nav-center {
+        display: none;
+    }
+    
+    .main__nav-img {
+        display: none;
+    }
+
+    .main__nav-img-center {
+        display: block;
+        object-fit: contain;
+        width: 90vw;
+        height: 7vh;
+        margin-top: 0.5em;
+        filter: opacity(1);
+    }
+
+    .main__nav-menu {
+        display: block;
+    }
+
+    .main__nav-button-user {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 7.5vw;
+        background-color: rgb(220, 53, 69);
+    }
+
+    .main__nav-button-user:hover {
+        background-color: #002f87;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .main__presentation {
+        margin-left: 5vw;
+    }
+    
+    .main__presentation-last-game {
+        width: 90vw;
+    }
+
+    .main__presentation-teams {
+        width: 25vw;
+    }
+
+    .main__presentation-info {
+        width: 70vw;
+    }
+
+
+    .notices {
+        margin: 10vh 5vw;
+    }
+
+    .notices__card-background-img1 {
+        width: 44.7vw;
+    }
+
+    .notices__card-background-img3 {
+        width: 21vw;
+    }
+
+    .nacionaltv {
+        padding: 5vh 5vw;
+    }
+
+    .socialmedia {
+        padding: 5vh 5vw;
+    }
+    .sponsors {
+        margin: 5vh 5vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
+    }
+
+    #header__d-none {
+        display: none;
+    }
+    .header__left-h1 {
+        display: none;
+    }
+    .header__right-a {
+        display: none;
+    }
+
+    .main__nav-brand {
+        width: 10%;
+    }
+
+    .main__nav-button-user {
+        width: 10%;
+    }
+
+    .main__nav-user, .main__nav-menu {
+        height: 3.5vh;
+    }
+
+    .main__presentation {
+        margin-top: 80vh;
+        margin-left: 2.5vw;
+    }
+
+    .main__presentation-h3 {
+        font-size: 1em;
+    }
+
+    .main__presentation-h1 {
+        font-size: 2em;
+    }
+
+    .main__presentation-last-game {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__presentation-last-game {
+        width: 95vw;
+    }
+
+    .main__presentation-info {
+        width: 95vw;
+    }
+
+    .main__presentation-teams {
+        width: 95vw;
+    }
+
+    .main__presentation-info {
+        width: 100%;
+        height: 7.5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: none;
+    }
+
+    .main__presentation-date, .main__presentation-info-cup {
+        font-size: 0.9em;
+    }
+
+    .main__presentation-team1, .main__presentation-team2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } 
+
+    .main__presentation-logo {
+        height: 5vh;
+        object-fit: contain;
+    }
+
+    .main__presentation-results {
+        background-color: #082c74;
+    }
+
+    .main__presentation-results-title {
+        width: 90%;
+    }
+
+    .main__presentation-results-arrows {
+        width: 10%;
+    }
+
+    .notices {
+        margin: 35vh 2.5vw 5vh 2.5vw;
+    }
+
+    .notices__title {
+        font-size: 1.5em;
+    }
+
+    .notices__card {
+        height: 60vh;
+        margin-bottom: 2em;
+    }
+
+    .card-reduce {
+        height: 25vh;
+    }
+
+    .notices__card-img {
+        height: 100%;
+        width: 20vw;
+    }
+
+    .notices__card-info {
+        height: 100%;
+    }
+
+    .notices__card-img:hover {
+        transform: none;
+    }
+
+    .notices__card-background-img1 {
+       width: 95.8vw;
+       height: 60vh; 
+    }
+
+    .notices__card-background-img1:hover {
+        filter: none;
+    }
+
+    #publicity {
+        height: max-content;
+    }
+
+    .notices__card-background-img2 {
+        height: auto;
+    }
+
+    .notices__card-background-img2:hover {
+        filter: none;
+    }
+
+    .nacionaltv {
+        flex-direction: column;
+    }
+
+    .nacionaltv__title {
+        font-size: 1.5em;
+    }
+
+    .nacionaltv__info {
+        font-size: 1em;
+    }
+
+    .nacionaltv__button {
+        width: 90vw;
+        font-size: 1em;
+    }
+
+    .nacionaltv__button:hover {
+        background-color: rgb(220, 53, 69);
+        cursor: default;
+    }
+
+    .socialmedia__title {
+        font-size: 1.5em;
+    }
+
+    .socialmedia__titles {
+        width: 90vw;
+    }
+
+    .socialmedia__images {
+        display: flex;
+        justify-content: end;
+        width: 30%;
+    }
+
+    .socialmedia-card {
+        height: 40vh;
+    }
+
+    .socialmedia__card-img {
+        width: 65%;
+    }
+
+    .socialmedia__card-info {
+        width: 35%;
+    }
+
+    .socialmedia__card-title-img {  
+        width: 1em;
+    }
+
+    .img-expand {
+        width: 10vw;
+    }
+
+    .sponsors__img:hover {
+        filter: opacity(50%);
+        cursor: default;
+    }
+
+    .sponsors__title {
+        font-size: 0.9em;
+    }
+
+    .footer {
+        height: 30vh;
+    }
+
+    .footer__socialmedia {
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-top: 1.5em;
+    }
+
+    .footer__socialmedia-img {
+        width: 1.2em;
+    }
+
+    .footer__link:hover {
+        filter: opacity(50%);
+    }
+}
+
+@media (max-width: 645px) {
+
+    .main__presentation {
+        margin-top: 75vh;
+    }
+
+    .main__presentation-h1 {
+        margin-bottom: 2.5em;
+    }
+
+    .main__presentation-results-title {
+        width: 80%;
+    }
+
+    .main__presentation-results-arrows {
+        width: 20%;
+    }
+
+    .socialmedia__images {
+        margin: 0.65em 0em;
+    }
+
+    .sponsors__img {
+        width: 12vw;
+    }
+
+    .img-expand {
+        width: 20vw;
+    }
+
+    .img-lower {
+        width: 10vw;
+    }
+}
